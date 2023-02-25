@@ -99,9 +99,19 @@ public class Personaje {
 
     @Override
     public String toString() {
-        return nombre;
+        return "- " + nombre + "\n";
     }
     
+    
+    public String toString2(){
+        
+        return "Poder: " + poder + "\n" +
+                "Debilidad: " + debilidad + "\n" +
+                "Fuerza: " + fuerza + "\n" +
+                "Agilidad Fisica: " + agilidadFisica + "\n" +
+                "Agilidad Mental: " + agilidadMental + "\n" +
+                "HP: " + vida + "\n";
+    }
     
     
 }
